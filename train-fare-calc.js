@@ -6,8 +6,12 @@ let youngPersonsDiscount = 20;
 let olderPersonsDiscount = 40;
 if (age < 18) {
     fare = (distance * price) * (1 - (youngPersonsDiscount/100));
+    alert(`Your train fare is ${fare}p`);
 } else if (age > 65) {
     fare = (distance * price) * (1 - (olderPersonsDiscount/100));
+    alert(`Your train fare is ${fare}p`);
 } else {
     (fare = distance * price);
+    alert(`Your train fare is ${fare}p`);
+
 }
